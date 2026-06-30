@@ -348,30 +348,78 @@
             color: var(--text-gray);
         }
 
-      @media (max-width: 992px) {
+ @media (max-width: 992px) {
 
-    .about-grid {
-        grid-template-columns: 1fr;
+    header {
+        padding: 20px 5%;
     }
 
+    .logo {
+        font-size: 1.3rem;
+    }
+
+
     .hero {
-        min-height: 100vh;
 
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
+        height: 100vh;
+        min-height: 700px;
 
-        background-color: #060a12;
+        padding: 0 25px;
+
+        background-size: cover;
+
+        background-position: center top;
+
+    }
+
+
+    .hero h2 {
+
+        font-size: 1rem;
+        letter-spacing: 3px;
+
     }
 
 
     .hero h1 {
-        font-size: 3rem;
+
+        font-size: 2.8rem;
+        letter-spacing: 2px;
+
+    }
+
+
+    .hero p {
+
+        font-size: 1rem;
+
+        max-width: 350px;
+
+    }
+
+
+    .hero-buttons {
+
+        flex-direction: column;
+
+        width:100%;
+
+        gap:15px;
+
+    }
+
+
+    .btn-cyber {
+
+        width:100%;
+
     }
 
 
     header nav {
+
         display:none;
+
     }
 
 }
