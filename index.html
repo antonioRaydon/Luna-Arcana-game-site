@@ -348,12 +348,33 @@
             color: var(--text-gray);
         }
 
-        /* RESPONSIVIDADE */
-        @media (max-width: 992px) {
-            .about-grid { grid-template-columns: 1fr; }
-            .hero h1 { font-size: 3.5rem; }
-            header nav { display: none; }
-        }
+      @media (max-width: 992px) {
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        min-height: 100vh;
+
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        background-color: #060a12;
+    }
+
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+
+    header nav {
+        display:none;
+    }
+
+}
     </style>
 </head>
 <body>
